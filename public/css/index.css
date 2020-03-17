@@ -1,0 +1,7 @@
+* {
+  touch-action: pan-y;
+}
+
+#root {
+  height: 100%;
+}

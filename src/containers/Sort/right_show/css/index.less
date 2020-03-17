@@ -1,0 +1,46 @@
+.shop_list {
+  width: 260px;
+  padding: 15px;
+
+  img {
+
+    width: 100%;
+    height: 95px;
+  }
+
+  .shoplist {
+    width: 100%;
+    margin-top: 20px;
+
+    .list {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      
+
+      li {
+        width: 80px;
+        height: 105px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        padding: 3px;
+        &.on{
+          background-color: red;
+        }
+        img {
+          width: 70px;
+          height: 70px;
+        }
+
+        span {
+          width: 70px;
+          height: 39px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
